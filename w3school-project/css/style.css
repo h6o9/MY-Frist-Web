@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Lucida Sans, Verdana;
+}
+
+
+body {
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1042px;
+	margin: 0px auto;
+}
+
+.inner-content:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.top {
+	background: #04AA6D;
+	padding: 18px;
+	border-radius: 5px;
+}
+
+.top h1 {
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.top p {
+	color: #ffffff;
+}
+
+.header {
+	padding: 15px;
+}
+
+
+.navigation {
+
+	width: 20%;
+	float: left;
+}
+
+
+.aside {
+	width: 20%;
+	float: left;
+
+}
+
+.main {
+	width: 60%;
+	float: left;
+}
+
+.nav-sec ul li {
+	list-style: none;
+    padding: 6px;
+    background-color: #f1f1f1;
+    margin: 5px 0px 5px 5px;
+}
+
+.nav-sec ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+
+
+.main-nav a{
+	color: black;
+}
+
+.main-nav {
+	padding-left: 15px;
+}
+
+.Main-heading {
+	padding: 15px;
+	font-size: 30px;
+}
+
+
+
+.Main-heading-2 {
+    margin: 15px 0;
+    padding-left: 15px;
+}
+
+.main-link {
+	color: black;
+    padding-left: 15px;
+}
+
+.Main-para {
+    font-size: 16px;
+    padding: 0px 15px 0 15px;
+}
+
+.main-para-2 {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.aside-bar {
+	background-color: #32a4e7;
+	color: #f1f1f1;
+	border-radius: 5px;
+}
+
+.aside-heading {
+	padding: 10px;
+}
+
+.aside-para {
+	padding: 10px 10px 100px 10px;
+}
+
+.footer-sec {
+	background-color: #f1f1f1;
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+@media only screen and (max-width: 887px) {
+    .container {
+        width: 100%;
+        padding: 0 10px ;
+    }
+ 
+ 
+    .main {
+    	width: 100%;
+    } 
+
+.aside {
+    	width: 100%;
+    	margin-top: 15px;
+
+    }
+
+    .navigation {
+    	width: 100%;
+    }
+
+
+    .Main-heading {
+    padding: 11px;
+    font-size: 30px;
+}
+
+.Main-para {
+    font-size: 16px;
+    padding: 0px 15px 0 11px;
+}
+
+.main-nav {
+	padding-left: 11px;
+}
+
+ }
+
+ @media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .main {
+    	width: 50%;
+    } 
+
+.aside {
+    	width: 100%;
+    	margin-top: 15px;
+
+    }
+
+    .navigation {
+    	width: 50%;
+    }
+ }
+
+
